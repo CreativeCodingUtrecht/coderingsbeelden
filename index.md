@@ -93,3 +93,18 @@ src(s0)
 .colorama(0.1)
 .out()
 `
+
+5. Voeg andere transformaties toe of gebruik een andere bron in plaats van de webcam. Probeer verschillende waarden en volgordes van transformaties. Hieronder een voorbeeld van gecombineerde transformaties.
+
+`s0.initCam()
+
+src(s0)
+.colorama(0.85)
+.pixelate(80,80)
+.repeat(3,3)
+.rotate(0.2,0.2)
+.kaleid(4)
+.out()`
+
+(/images/voorbeeld1.jpg)
+(/images/voorbeeld2.jpg)
