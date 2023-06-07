@@ -9,6 +9,9 @@ Betreed de wereld van creatieve code en verleg de grenzen van je verbeelding met
 
 Je hebt helemaal geen codeer ervaring nodig om ermee te beginnen. Beelden coderen met Hydra is toegankelijk voor iedereen en helemaal gratis te gebruiken rechtstreeks in je browser.
 
+![alt text](images/voorbeeld1.jpg)
+![alt text](images/voorbeeld2.jpg)
+
 ## De Basis
 
 - Ga naar [hydra.ojack.xyz](https://web.archive.org/web/20230603085500/https://hydra.ojack.xyz/) in je internet browser
@@ -83,7 +86,7 @@ s0.initCam()
 src(s0)
 .out()
 ```
-
+⋅
 Kun je jezelf zien? Dan kunnen we verder met het beeld transformeren!
 
 4. Gebruik de transformatie `.colorama(0.5)` om de kleuren te beïnvloeden. Speel met de waarden tussen de haakjes totdat je een leuk resultaat hebt.
