@@ -110,3 +110,8 @@ src(s0)
 .out()
 ```
 ![alt text](images/voorbeeld2.jpg)
+
+### Thuis verder gaan?
+Scan de QR code met je telefoon om deze website op te slaan!
+
+![alt text](images/QR.png)
