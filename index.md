@@ -80,7 +80,6 @@ s0.initCam()
 ⋅
 ```javascript
 s0.initCam()
-
 src(s0)
 .out()
 ```
@@ -91,7 +90,6 @@ Kun je jezelf zien? Dan kunnen we verder met het beeld transformeren!
 ⋅
 ```javascript
 s0.initCam()
-
 src(s0)
 .colorama(0.1)
 .out()
@@ -101,7 +99,6 @@ src(s0)
 ⋅
 ```javascript
 s0.initCam()
-
 src(s0)
 .colorama(0.85)
 .pixelate(80,80)
@@ -110,7 +107,3 @@ src(s0)
 .kaleid(4)
 .out()
 ```
-
-(https://creativecodingutrecht.github.io/coderingsbeelden/images/voorbeeld1.jpg)
-
-(https://creativecodingutrecht.github.io/coderingsbeelden/images/voorbeeld2.jpg)
