@@ -111,6 +111,6 @@ src(s0)
 .out()
 ```
 
-(images/voorbeeld1.jpg)
+(/images/voorbeeld1.jpg)
 
-(images/voorbeeld2.jpg)
+(/images/voorbeeld2.jpg)
