@@ -16,17 +16,17 @@ Je hebt helemaal geen codeer ervaring nodig om ermee te beginnen. Beelden codere
 - Je code begint altijd met een bron (zie voorbeelden verderop)
 - Daarna kan je de bron vervormen met transformaties, deze beginnen altijd met een punt
 - Transformaties en bronnen kunnen totaal verschillende resultaten geven afhankelijk van welke cijfers je gebruikt voor de waarden tussen de haakjes
-- Onderaan je code moet je altijd een einde toevoegen *.out()*
-- Om je code te activeren druk je op *ctrl+shift+enter*
+- Onderaan je code moet je altijd een einde toevoegen *`.out()`*
+- Om je code te activeren druk je op *`ctrl+shift+enter`*
 - Aarzel niet om te experimenteren!
 
-```jsx
+```javascript
 osc(10,0.1,0.5)
 .color(1,0.89,0.55)
 .out()
 ```
 
-Probeer het voorbeeld uit en wijzig de nummers om te kijken wat er gebeurd. Vergeet niet de code te activeren met *ctrl+shift+enter*
+Probeer het voorbeeld uit en wijzig de nummers om te kijken wat er gebeurd. Vergeet niet de code te activeren met *`ctrl+shift+enter`*
 
 Vervolgens kun je kijken wat er gebeurd als je andere transformaties toevoegt of de bron veranderd.
 
@@ -39,8 +39,9 @@ Wat te controleren als je code niet werkt
 - lege regels? zorg dat de code aansluit
 - Beginnen al je transformaties met een punt?
 - Heb je `.out()` op het einde staan?
-- Als het beeld is vastgelopen nadat je de code hebt geactiveerd; kopieer jouw code door alles te selecteren, *ctrl-C*, en ververs dan de browser. Klik op de prullenbak om  alles te verwijderen, plak je eigen code door *ctrl-V*  
+- Als het beeld is vastgelopen nadat je de code hebt geactiveerd; kopieer jouw code door alles te selecteren, *`ctrl-C`*, en ververs dan de browser. Klik op de prullenbak om  alles te verwijderen, plak je eigen code door *`ctrl-V`*  
 
+---
 
 ## Bouwstenen
 
@@ -63,12 +64,13 @@ Hieronder staan een aantal bronnen en transformaties om je op weg te helpen. De 
 `.colorama(0.005)`
 `.color(0,1,1)`
 
+---
 
 ## Maak je eigen webcam effect
 
 1. Voordat je de webcam als bron kunt gebruiken moet deze eerst worden geïnitialiseerd met behulp van `s0.initCam()`. Dit creëert een bron met de naam `s0` die aan de webcam wordt gekoppeld.
 
-```jsx
+```javascript
 s0.initCam()
 ```
 
@@ -76,7 +78,9 @@ s0.initCam()
 
 3. Voeg ook `.out()` toe en controleer met *`ctrl+shift+enter`* of het werkt.
 
-```jsx
+```javascript
+s0.initCam()
+
 src(s0)
 .out()
 ```
@@ -84,7 +88,8 @@ src(s0)
 Kun je jezelf zien? Dan kunnen we verder met het beeld transformeren!
 
 4. Gebruik de transformatie `.colorama(0.5)` om de kleuren te beïnvloeden. Speel met de waarden tussen de haakjes totdat je een leuk resultaat hebt.
-```jsx
+
+```javascript
 s0.initCam()
 
 src(s0)
@@ -94,7 +99,7 @@ src(s0)
 
 5. Voeg andere transformaties toe of gebruik een andere bron in plaats van de webcam. Probeer verschillende waarden en volgordes van transformaties. Hieronder een voorbeeld van gecombineerde transformaties.
 
-```jsx
+```javascript
 s0.initCam()
 
 src(s0)
@@ -105,3 +110,7 @@ src(s0)
 .kaleid(4)
 .out()
 ```
+
+(images/voorbeeld1.jpg)
+
+(images/voorbeeld2.jpg)
