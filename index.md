@@ -13,7 +13,7 @@ Je hebt helemaal geen codeer ervaring nodig om ermee te beginnen. Beelden codere
 
 ## De Basis
 
-- Ga naar [hydra.ojack.xyz](https://web.archive.org/web/20230603085500/https://hydra.ojack.xyz/) in je internet browser
+- Ga naar [hydra.ojack.xyz](https://hydra.ojack.xyz/) in je internet browser
 - Druk op de prullenbak rechtsboven om met een lege pagina te beginnen
 - Je code begint altijd met een bron (zie voorbeelden verderop)
 - Daarna kan je de bron vervormen met transformaties, deze beginnen altijd met een punt
@@ -47,7 +47,7 @@ Wat te controleren als je code niet werkt
 
 ## Bouwstenen
 
-Hieronder staan een aantal bronnen en transformaties om je op weg te helpen. De volledige lijst is in het engels te vinden op [hydra.ojack.xyz/functions/](https://web.archive.org/web/20230603085500/https://hydra.ojack.xyz/functions/)
+Hieronder staan een aantal bronnen en transformaties om je op weg te helpen. De volledige lijst is in het engels te vinden op [hydra.ojack.xyz/functions/](https://hydra.ojack.xyz/functions/)
 
 ### Bronnen
 `osc(40,0.1,0)`
